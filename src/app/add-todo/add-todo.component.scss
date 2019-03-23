@@ -1,0 +1,20 @@
+.addToDo {
+  padding-bottom: 25px;
+
+  .error {
+    color: red;
+  }
+  
+  input {
+    width: 100%;
+    margin-bottom: 1em;
+  }
+
+  textarea {
+    width: 100%;
+  }
+  
+  button {
+    float: right;
+  }
+}

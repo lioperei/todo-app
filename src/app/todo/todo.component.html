@@ -1,0 +1,12 @@
+<div class="todo" *ngIf="todo">
+  <div class="top">
+    <div class="task">
+      <h4>{{ todo.task | uppercase }}</h4>
+      <i class="material-icons">{{ (todo.complete) ? 'check_circle' : '' }}</i>
+    </div>
+    <i class="material-icons remove" (click)="onClickRemove()">close</i>
+  </div>
+  <p>{{todo.description}}</p>
+  <button (click)="onClickComplete()" [hidden]="todo.complete">Complete</button>
+</div>
+

@@ -1,0 +1,19 @@
+{
+  "todo":[
+    {
+      "task": "Do Homework",
+      "complete": false,
+      "description": "Do this so you don't be dumb"
+    },
+    {
+      "task": "Do Work",
+      "complete": true,
+      "description": "Do this so you don't be poor"
+    },
+    {
+      "task": "Do Gym",
+      "complete": false,
+      "description": "Do this so you don't be fat"
+    }
+  ]
+}

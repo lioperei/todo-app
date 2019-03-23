@@ -1,0 +1,8 @@
+<div class="addToDo">
+  <form [formGroup]="addToDoForm" (ngSubmit)="onClickAdd()">
+    <input type="text" placeholder="Task" formControlName="task" />
+    <input type="text" placeholder="Description" formControlName="description" >
+    <button type="submit" [disabled]="addToDoForm.status === 'INVALID'">Add</button>
+  </form>
+  <h6 class="error">{{ error }}</h6>
+</div>
